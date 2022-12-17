@@ -107,7 +107,7 @@
 }
 
 .text_dark {
-    color: var(--clr-Drak);
+    color: var(--clr-Drak) !important;
 }
 
 .bg_primary {
