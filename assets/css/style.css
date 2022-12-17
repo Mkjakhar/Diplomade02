@@ -1,10 +1,11 @@
-@import url(./kunal.css);
+@import url();
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Syne:wght@400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     text-decoration: none !important;
+    list-style-type: none;
     box-sizing: border-box;
     text-transform: capitalize;
 }
@@ -61,10 +62,6 @@
 
 .opacity_06 {
     opacity: 0.6;
-}
-
-.opacity_07 {
-    opacity: 0.8;
 }
 
 .opacity_08 {
@@ -127,7 +124,7 @@
     font-family: 'Satoshi';
     font-weight: var(--fw-bold);
     font-size: var(--fs-4xl);
-    color: var(--clr-Drak);
+    /* color: var(--clr-Drak); */
 }
 
 .common_btn {
