@@ -143,7 +143,7 @@
     font-family: 'Satoshi';
     font-weight: var(--fw-bold);
     font-size: var(--fs-4xl);
-    /* color: var(--clr-Drak); */
+    color: var(--clr-Drak);
 }
 
 .common_btn {
