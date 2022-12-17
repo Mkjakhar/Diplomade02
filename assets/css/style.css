@@ -140,10 +140,17 @@
 }
 
 .common_heading {
+<<<<<<< HEAD
   font-family: "Satoshi";
   font-weight: var(--fw-bold);
   font-size: var(--fs-4xl);
   /* color: var(--clr-Drak); */
+=======
+    font-family: 'Satoshi';
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-4xl);
+    color: var(--clr-Drak);
+>>>>>>> ece11c567a2b1cd1eede25ae5b273bf806d3b148
 }
 
 .common_btn {
