@@ -1,0 +1,32 @@
+.accordion {
+  --bs-accordion-bg: #0a1849 !important;
+  --bs-accordion-btn-active-icon: url(../images/svg/arrow.svg) !important;
+}
+.accordion-button::after {
+  background-image: url(../images/svg/arrowDown.svg) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/svg/arrowDown.svg) !important;
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: #0a1849 !important;
+  box-shadow: none;
+}
+.border_none {
+  border: none !important;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  outline: 0;
+  box-shadow: 0px 1px 9px -3px rgba(255, 255, 255, 0.41) !important;
+}
+.accordion-button {
+  box-shadow: 0px 1px 9px -3px rgba(255, 255, 255, 0.41) !important;
+  padding: 20px 25px 20px 15px !important;
+}
+.scale:hover {
+  scale: 1.09;
+}
