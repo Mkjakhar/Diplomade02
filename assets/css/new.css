@@ -14,13 +14,7 @@
     line-height: 170%;
 }
 
-.slick-track {
-    display: flex;
-}
 
-.slick-slide {
-    height: inherit;
-}
 
 .mx_3 {
     margin-left: 15px;
