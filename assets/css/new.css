@@ -4,17 +4,17 @@
 }
 
 .border_gradiant {
-    border: 1px solid transparent;
-    filter: blur(1.px);
     border-radius: 12px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    background: linear-gradient(0deg, white, white) padding-box,
-        linear-gradient(100deg, #828CC9, #7CC2DA 50%)border-box;
+    border: 1px solid transparent;
+    background: radial-gradient(white, white) padding-box,
+        radial-gradient(183.11% 316.22% at 94.98% 48.82%, rgba(66, 232, 224, 0.72) 0%, rgba(67, 224, 222, 0.72) 2%, rgba(71, 186, 209, 0.72) 11%, rgba(75, 154, 199, 0.72) 21%, rgba(78, 127, 190, 0.72) 32%, rgba(80, 107, 183, 0.72) 44%, rgba(82, 92, 179, 0.72) 58%, rgba(83, 84, 176, 0.72) 74%, rgba(83, 81, 175, 0.72) 100%) border-box;
 }
 
 .line_height_170 {
     line-height: 170%;
 }
+
+
 
 .mx_3 {
     margin-left: 15px;

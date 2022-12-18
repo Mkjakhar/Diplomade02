@@ -140,12 +140,7 @@
 }
 
 .common_heading {
-  font-family: "Satoshi";
-  font-weight: var(--fw-bold);
-  font-size: var(--fs-4xl);
-  /* color: var(--clr-Drak); */
-  font-family: 'Satoshi';
-  font-weight: var(--fw-bold);
+  font-family: 'satoshi_bold';
   font-size: var(--fs-4xl);
   color: var(--clr-Drak);
 }
@@ -168,6 +163,14 @@
   font-weight: var(--fw-semibold);
   font-family: "Syne";
   color: #ffffff !important;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-slide {
+  height: inherit;
 }
 
 @media (min-width: 576px) {
