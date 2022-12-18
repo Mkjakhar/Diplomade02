@@ -140,23 +140,19 @@
 }
 
 .common_heading {
-<<<<<<< HEAD
   font-family: "Satoshi";
   font-weight: var(--fw-bold);
   font-size: var(--fs-4xl);
   /* color: var(--clr-Drak); */
-=======
-    font-family: 'Satoshi';
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-4xl);
-    color: var(--clr-Drak);
->>>>>>> ece11c567a2b1cd1eede25ae5b273bf806d3b148
+  font-family: 'Satoshi';
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-4xl);
+  color: var(--clr-Drak);
 }
 
 .common_btn {
   padding: 14px 28px;
-  background: radial-gradient(
-      183.11% 316.22% at 94.98% 48.82%,
+  background: radial-gradient(183.11% 316.22% at 94.98% 48.82%,
       #42e8e0 0%,
       #43e0de 2%,
       #47bad1 11%,
@@ -165,8 +161,7 @@
       #506bb7 44%,
       #525cb3 58%,
       #5354b0 74%,
-      #5351af 100%
-    ),
+      #5351af 100%),
     #42e8e0;
   border-radius: 8px;
   font-size: var(--fs-sm);
