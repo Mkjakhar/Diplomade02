@@ -31,3 +31,11 @@
 .scale:hover {
   scale: 1.09;
 }
+.index_n_1 {
+  z-index: -1;
+}
+@media (min-width: 992px) {
+  .bg_lg_transparent {
+    background-color: transparent !important;
+  }
+}
