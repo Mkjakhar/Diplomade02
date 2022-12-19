@@ -16,7 +16,7 @@
   --fs-md: 20px;
   --fs-lg: 24px;
   --fs-3xl: 30px;
-  --fs-4xl: 40px;
+  --fs-4xl: 36px;
   --fs-8xl: 44px;
   /* font-weight */
   --fw-light: 300;
@@ -196,13 +196,31 @@
   height: inherit;
 }
 
+/* ........back to top......... */
+.btn_to_top {
+  width: 45px !important;
+  height: 45px !important;
+  border: unset;
+  border-radius: 80px;
+  color: red;
+  font-size: 26px;
+  z-index: 23456;
+  transition: all linear 300ms;
+  animation: top 3s linear infinite;
+  background: radial-gradient(183.11% 316.22% at 94.98% 48.82%, #42E8E0 0%, #43E0DE 2%, #47BAD1 11%, #4B9AC7 21%, #4E7FBE 32%, #506BB7 44%, #525CB3 58%, #5354B0 74%, #5351AF 100%), #42E8E0;
+}
+
+.btn_to_top:hover {
+  box-shadow: 1px 1px 15px #0a1849, -1px -1px 15px #D2D2D2;
+}
+
 @media (min-width: 576px) {
   :root {
     /* Font-Size */
     --fs-sm: 16px;
     --fs-md: 24px;
     --fs-4xl: 36px;
-    --fs-8xl: 60px;
+    --fs-8xl: 54px;
   }
 }
 
@@ -212,6 +230,13 @@
     --fs-sm: 16px;
     --fs-md: 24px;
     --fs-4xl: 40px;
+    --fs-8xl: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    /* Font-Size */
     --fs-8xl: 80px;
   }
 }

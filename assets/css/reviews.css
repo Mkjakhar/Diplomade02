@@ -18,8 +18,23 @@
     src: url(/assets/fonts/Satoshi-Black.otf);
 }
 
+.custom_container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+}
+
 .ff_satoshi_black {
     font-family: 'satoshi_Black' !important;
+}
+
+.ff_satoshi_bold {
+    font-family: 'satoshi_bold' !important;
+}
+
+.ff_satoshi_medium {
+    font-family: 'satoshi_Medium' !important;
 }
 
 .user_slides {
@@ -43,35 +58,36 @@
     color: #fff !important;
 }
 
-@media (min-width:992px) {
-
-    .user_arrow_prev,
-    .review_arrow_prev {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: -25px;
-    }
-
-    .user_arrow_next,
-    .review_arrow_next {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: -25px;
-    }
-
+.footer_social_icons {
+    transition: linear 300ms;
 }
 
-@media (min-width:1400px) {
+.footer_social_icons:hover {
+    opacity: 1 !important;
+    -webkit-text-stroke: 0.7px var(--clr-primary);
+}
+
+@media (min-width:1200px) {
+    header {
+        min-height: 100vh;
+    }
 
     .user_arrow_prev,
-    .review_arrow_prev {
+    .review_arrow_prev,
+    .features_arrow_prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         left: -40px;
     }
 
     .user_arrow_next,
-    .review_arrow_next {
+    .review_arrow_next,
+    .features_arrow_next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         right: -40px;
     }
+
 }
