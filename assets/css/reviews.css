@@ -18,6 +18,10 @@
     src: url(/assets/fonts/Satoshi-Black.otf);
 }
 
+.ff_satoshi_black {
+    font-family: 'satoshi_Black' !important;
+}
+
 .user_slides {
     border-radius: 12px;
     border: 1px solid transparent;

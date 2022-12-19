@@ -163,6 +163,29 @@
   font-weight: var(--fw-semibold);
   font-family: "Syne";
   color: #ffffff !important;
+  transition: 300ms linear;
+}
+
+.common_btn:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+.hero_btn {
+  padding: 11px 25px;
+  border: 3px solid transparent;
+  background: radial-gradient(var(--clr-primary), var(--clr-primary)) padding-box,
+    radial-gradient(183.11% 316.22% at 94.98% 48.82%, #42E8E0 0%, #43E0DE 2%, #47BAD1 11%, #4B9AC7 21%, #4E7FBE 32%, #506BB7 44%, #525CB3 58%, #5354B0 74%, #5351AF 100%) border-box;
+  border-radius: 8px;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  font-family: "Syne";
+  color: #ffffff !important;
+}
+
+.hero_btn:hover {
+  background: radial-gradient(183.11% 316.22% at 94.98% 48.82%, #42E8E0 0%, #43E0DE 2%, #47BAD1 11%, #4B9AC7 21%, #4E7FBE 32%, #506BB7 44%, #525CB3 58%, #5354B0 74%, #5351AF 100%) padding-box,
+    radial-gradient(183.11% 316.22% at 94.98% 48.82%, #42E8E0 0%, #43E0DE 2%, #47BAD1 11%, #4B9AC7 21%, #4E7FBE 32%, #506BB7 44%, #525CB3 58%, #5354B0 74%, #5351AF 100%) border-box;
 }
 
 .slick-track {
